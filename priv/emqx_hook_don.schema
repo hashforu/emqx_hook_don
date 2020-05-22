@@ -8,4 +8,4 @@
 
 {translation, "emqx_hook_don.broker", fun(Conf) ->
   KafkaHost = cuttlefish:conf_get("kafka.host", Conf),
-  [{host, KafkaHost}}.
+  [{host, KafkaHost}]end}.
